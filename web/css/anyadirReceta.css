@@ -1,0 +1,178 @@
+/* 
+    Created on : 03-abr-2017, 18:28:30
+    Author     : marta
+*/
+    #cuerpoReceta{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        float: left;
+        width: 75%;
+       
+    }
+    #ingredientesReceta{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        float: left;
+        width: 25%;
+    }
+    .ingredientes{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        float: left;
+        width: 25%;
+    }
+    #cuerpoReceta input[type=text]{
+	width: 500px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #009999;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+   
+    #cuerpoReceta .tituloMod{
+        width: 600px !important;
+    }
+     #cuerpoReceta .comensales{
+        width: 150px !important;
+    }
+     #cuerpoReceta .comensalesMod{
+        width: 45px !important;
+    }
+    
+    .ingredientes input[type=text]{
+	width: 75%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #009999;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+
+.tipoReceta select{
+        width: 120px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #009999;
+        color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+#cuerpoReceta input[type=button]{
+	width: 260px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+#cuerpoReceta input[type=submit]{
+	width: 260px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+#cuerpoReceta textArea{
+    width: 650px;
+    height: 300px;
+    background: transparent;
+    border: 1px solid #009999;
+    border-radius: 2px;
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+.etiq {
+	width: 585px;
+	
+}
+.mini{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#cuerpoReceta .ok{
+    border: 1px solid #009999;
+    background: #009999;
+    color: #fff;
+}
+
+#cuerpoReceta input[type=button]:hover{
+	opacity: 0.8;
+}
+
+#cuerpoReceta input[type=button]:active{
+	opacity: 0.6;
+}
+
+#cuerpoReceta input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0);
+}
+
+#cuerpoReceta input[type=button]:focus{
+	outline: none;
+}
+
+#cuerpoReceta .cancel{
+    border: 1px solid #9D1919;
+    background: #9D1919;
+    color: #fff;
+}
+.cancel{
+    border: 1px solid #9D1919;
+    background: #9D1919;
+    color: #fff;
+}
+.inputfile {
+	width: 95px;
+	height: 35px;
+	
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+
+ 
+h2{
+    background: none repeat scroll 0 0 #798992; 
+    color:#fff; 
+    font-family:'Oswald',sans-serif; 
+    font-size:18px; margin-top:5px; 
+    font-weight:400; margin-bottom:20px; 
+    margin-left:0; padding:0; position:relative; 
+    text-align:center; 
+    text-transform:uppercase;
+}

@@ -1,0 +1,40 @@
+.ui-dialog {
+  width: 600px !important;
+  height: 400px !important;
+}
+
+.modal-dialog{
+    width: 485px !important;
+}
+
+.modal-header span{
+    color: white;
+    padding: 0px 5px;
+    background-color: #aaa;
+    border-radius: 10px;
+}
+
+.modal-dialog .btn-close:hover {
+  color: #919191;
+}
+
+.modal-dialog .btn-primary{
+    background-color: #009999 !important;
+    border-color: #009999 !important;
+}
+.modal-dialog .btn{
+    color: #ffffff !important;
+}
+.modal-dialog .btn-primary:hover{
+    background-color: #007777 !important;
+    border-color: #007777 !important;
+}
+
+.modal-dialog .modal-header h2 {
+  font-size: 25px;
+}
+
+.modal-dialog .modal-footer {
+  border-top: #eee solid 1px;
+  text-align: right;
+}

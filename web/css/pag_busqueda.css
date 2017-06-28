@@ -1,0 +1,46 @@
+.cuerpo-busqueda{
+    margin-top: 5px;
+}
+
+.titulo-pagina h3, p{
+  display: inline;
+  margin-left:3%;
+}
+
+.titulo-pagina button{
+  background-color: orange;
+  border: none;
+  padding: 8px;
+  border-radius: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.lista-recetas{
+    padding: 45px;
+}
+
+.receta{
+  display: inline-block;
+  margin-right: 12px;
+  width: 230px;
+  padding: 15px;
+  background-color: #F8F5F5;
+}
+
+.receta img{
+  float: none;
+  height: 200px;
+  width: 200px;
+}
+
+.receta .mas{
+    float: right;
+    color: #009999;
+}

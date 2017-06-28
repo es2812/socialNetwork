@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="">
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" logAbandoned="true" maxTotal="100" maxIdle="30" maxWait="10000" name="jdbc/cocinillas" password="cocinillas" removeAbandoned="true" removeAbandonedTimeout="60000" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/cocinillas" useUnicode="yes" characterEncoding="UTF-8" username="cocinillas"/>
+</Context>

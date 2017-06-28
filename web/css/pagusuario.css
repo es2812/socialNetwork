@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2017, 2:36:47 PM
+    Author     : dizzy
+*/
+
+body{overflow-x: hidden;}
+
+#user{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#foto_perfil{
+    float: left;
+    width: 160px;
+    height: 160px;
+    object-position: center;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: solid 10px #fff;
+}
+
+.info{
+    width: 100%;
+    margin-left: 170px;
+}
+
+
+.btns{
+    float: right;
+}
+
+.unfollow_btn{
+    color: #269abc;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.msg_btn{
+    color: white;
+    border-radius: 10px;
+}
+
+#recetas{    
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row{
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3 ;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.receta{
+    margin-right: 30px;   
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.receta .name{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.receta img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.seguir{
+    font-size: 15px;
+    font-weight: bold;
+    color: #009999;
+}
+

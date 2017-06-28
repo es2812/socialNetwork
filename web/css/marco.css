@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2017, 9:08:00 PM
+    Author     : Esther
+*/
+
+.container{background-color: #E9E5E5;}
+body{background:#E0E0E0;}
+ul{padding:0; margin:0; list-style:none}
+a{text-decoration:none; color:#2f2f2f}
+a:hover{color:#646464; text-decoration:none}
+a:focus{outline:none; text-decoration:none}
+h1, h2, h3, h4, h5, h6{font-family:'Oswald',sans-serif}
+h2{line-height:23px}
+img{border:none}
+#header {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+.scrollToTop{bottom:105px; display:none; font-size:32px; font-weight:bold; height:50px; position:fixed; right:75px; text-align:center; text-decoration:none; width:50px; z-index:9; border:1px solid; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.scrollToTop:hover, .scrollToTop:focus{text-decoration:none; outline:none}
+.logo_area{display:inline; float:left; width: 31%;}
+.logo img{max-width:60%}
+.logo img:hover{opacity:1}
+.logo > span{ margin-left:-14px}
+.banner{width: 114.5%;}
+.add_banner{float:right; width:728px; height:90px}
+.add_banner img{width:100%; height:100%}
+#izquierda{float:left;width:31%;}
+#derecha{float:right;width:69%;position:relative; left: -10%;}
+#navArea{float:left; display:inline; width:100%; padding:0 30px; background-color:#E9E5E5}
+.navbar{border:medium none; border-radius:0;background-color: #FF9742;}
+.navbar-inverse .navbar-nav > li > a{background-color: #FF9742; color:#fff; font-family:'Oswald',sans-serif; display:inline-block; height:50px; line-height:50px; padding:0 14px; text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.navbar-inverse .navbar-nav > li:first-child a{border:none}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{background-color: #fff; color:#000}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{background-color: #fff; color:#000}
+.nav li:hover > ul {display:block;}
+.dropdown-menu{background-color:#FF9742; display: none;}
+.dropdown-menu > li > a{clear:both; color:#fff; background-color:#FF9742; padding:10px 20px; font-family:'Oswald',sans-serif; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#000; background-color:#fff;}
+
+.barra input{
+    font-family:'Oswald',sans-serif;
+    width: 33%;
+    height: 40px;
+    margin: -1px;
+    background-color: #798992;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.barra input[value="Mis Recetas"]{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.barra input[value="Últimas"]{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.barra input[value="Descubrir"]{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.barra input[value="Editar Perfil"]{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.barra input:hover{
+    opacity: 0.9;
+}
+#selected{
+    background-color: #009999;
+}
+
+.search{border-top-left-radius: 10px;   border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;border-top-right-radius: 10px;margin-top: 6%;}
+.submit {
+	
+  padding: 0;
+  margin-right: 8px; /* border-width */
+        margin-top: 6%;
+  float:right;
+}
+.imagen{
+    width: 30px;
+    margin-left: 3%;
+    padding-left: 5%;
+	height: 25px;
+}
+#footer{display:inline; float:left; width:100%; margin-bottom:20px}
+.footer_bottom{float:left; display:inline; width:100%; padding:10px 30px; background-color:#FF9742; color:#ccc}

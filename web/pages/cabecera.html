@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<script type="text/javascript">
+    $( document ).ready(function(){
+        $('.imagen').click(function(e){
+            e.preventDefault();
+            location.href = "filtrarRecetas?etiqueta="+$('.search').val();
+        });
+    });   
+</script>
+
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+      <div class="logo_area" id="izquierda"><a href="principal.jsp" class="logo"><img src="../images/logo.jpg" alt=""></a></div>
+      <div id="derecha">
+        <div><img src="../images/banner.jpg" class="banner"></div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav main_nav">
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Recetas</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="filtrarRecetas?etiqueta=entrante">Entrantes</a></li>
+                <li><a href="filtrarRecetas?etiqueta=primero">Primeros</a></li>
+                <li><a href="filtrarRecetas?etiqueta=segundo">Segundos</a></li>
+                <li><a href="filtrarRecetas?etiqueta=postre">Postres</a></li>
+              </ul>
+            </li>
+            <li class="foro"><a href="./foro.jsp">Foro</a></li>
+            <li class="ranking"><a href="./ranking.jsp">Ranking</a></li>
+            <li class="espacio"><a href="./miespacio_misrecetas.jsp">Mi espacio</a></li>
+            <li class="nueva"><a href="./anyadirReceta.jsp">Nueva Receta</a></li>
+            <li><a href="cerrarSesion">Salir</a></li>
+            <li><div><input class="search" name="etiqueta" type="search"><a class="submit search_submit" href=""><img class="imagen" src="../images/search.png"></a></div></li>
+          </ul>
+        </div>
+      </div>
+    </nav>

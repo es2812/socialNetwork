@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2017, 9:08:00 PM
+    Author     : Esther
+*/
+
+#recetas{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.receta{
+    margin-bottom: 50px;
+    border-bottom: #646464 solid 1px;
+}
+
+.receta .name{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+.receta .data{
+    font-size: 15px;
+    
+}
+.receta .likes{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #9D1919;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    z-index: -1;
+}
+.receta .wrap img{
+    position: absolute;
+    width: 60%;
+    margin-top: -55px;
+    margin-left: -20px;
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+}
+.receta .wrap{
+    position: relative;
+    float: left;    
+    margin-top: 10px;
+    margin-right: 45%;
+    width: 70px;
+}
+
+.receta .buttons{
+    float: right;
+    margin-top: -100px;
+}
+
+.receta .buttons .btn-primary{
+    background-color: #009999;
+    border-color: #009999;
+    margin-bottom: 5px;
+}
+
+.receta .buttons .btn-primary:hover{
+    background-color: #007777;
+    border-color: #007777;
+}
+
+.receta .buttons .btn-primary, .btn-danger{
+    border-radius: 6px;
+    width: 95px;
+}
+
+#perfil{
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-bottom: 30px;
+}
+
+#foto_perfil{
+    width: 150px;
+    height: 150px;
+    object-position: right bottom;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#perfil input[type=text]{
+	width: 260px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #009999;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#perfil input[type=password]{
+	width: 260px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #009999;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+#perfil input[type=button],input[type=submit]{
+	width: 260px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+#perfil .ok{
+    border: 1px solid #009999;
+    background: #009999;
+    color: #fff;
+}
+
+#perfil input[type=button]:hover,input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+#perfil input[type=button]:active,input[type=submit]:active{
+	opacity: 0.6;
+}
+
+#perfil input[type=text]:focus,input[type=submit]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0);
+}
+
+#perfil input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0);
+}
+
+#perfil input[type=button]:focus,input[type=submit]:focus{
+	outline: none;
+}
+
+#perfil .cancel{
+    border: 1px solid #9D1919;
+    background: #9D1919;
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-webkit-input-placeholder { color: inherit; }
+
+#inbox{
+    margin-top: 20px;
+}
+
+#msgerror{color: red;}
+
+.tab-pane .list-group-item:first-child {border-top-right-radius: 0px;border-top-left-radius: 0px;}
+.tab-pane .list-group-item:last-child {border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;}
+a.list-group-item.read { color: #222;background-color: #646464; color: white; }
+hr { margin-top: 5px;margin-bottom: 10px; }
+.nav-pills>li>a {padding: 5px 10px;}
+
+.ad { padding: 5px;background: #F5F5F5;color: #222;font-size: 80%;border: 1px solid #E5E5E5; }
+.ad a.title {color: #15C;text-decoration: none;font-weight: bold;font-size: 110%;}
+.ad a.url {color: #093;text-decoration: none;}
+.tab-pane .list-group-item .name{min-width: 170px; display: inline-block;}
+.tab-pane .list-group-item .envelope{margin-right: 5px;}

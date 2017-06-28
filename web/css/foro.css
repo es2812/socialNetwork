@@ -1,0 +1,135 @@
+/* 
+    Created on : 02-abr-2017, 12:09:23
+    Author     : marta
+*/	
+
+    
+    .respuesta{ 
+        margin-top: 10px;
+        overflow: hidden;
+        border: 1px solid black;
+        height: 100%;
+        background-color: #ffcc99;
+    }
+    
+    .hilo{
+        
+        margin-left:3%; 
+        margin-right:3%;
+    }
+    
+    
+    .fecha{
+        background-color:#E9E5E5;
+        padding-left: 10px;
+    }
+    
+    .perfil{
+        
+        padding: 0px 10px;
+        float: left;
+    }
+    
+    .cuerpo{
+        float:right;
+        width: calc(100% - 130px );
+    }
+    
+    th{
+        background-color: 	 #ffbf80
+        
+    }
+    tr:nth-child(even){
+        background-color: #ffcc99
+    }
+    .texto{
+        
+        background-color:#fbfbfd;
+    }
+    /*th,td,tr{
+        align-content: center;
+    }*/
+    .divforo{
+        border:0;
+        cellpadding:2;
+        cellspacing:0;
+        width: 100%; 
+ 
+    }
+    .botones{
+        margin-bottom: 20px
+    }
+    .general .foro {
+        border: 0px;
+        width:100%;
+    }
+    #header {
+            margin:auto;
+            width:100%;
+            font-family:Arial, Helvetica, sans-serif;
+    }
+    .hilo table{
+        width: 100%;
+        border: 1px solid black;
+    }
+    .hilo textArea{
+        width:100%;
+        height: 200px;
+        
+    }
+    #perfil{
+        width: 120px;
+        object-align: top left;
+    }
+    .cuerpo{
+        text-align: top;
+    }
+    .hilo tr{
+      width: 100%;
+    }
+    input[type=button]{
+	width: 260px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+    }
+    .ok{
+        border: 1px solid #009999;
+        background: #009999;
+        color: #fff;
+    }
+    .cancel{
+        border: 1px solid #9D1919;
+        background: #9D1919;
+        color: #fff;
+    }
+    input[type=button]:hover{
+	opacity: 0.8;
+    }
+
+    input[type=button]:active{
+            opacity: 0.6;
+    }
+
+    input[type=text]:focus{
+            outline: none;
+            border: 1px solid rgba(255,255,255,0);
+    }
+
+    input[type=button]:focus{
+            outline: none;
+    }
+    a:link, a:visited {
+        color: #3C5A68;
+    }
+    a:hover, a:active {
+
+    }
+
+
+
